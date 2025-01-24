@@ -14,13 +14,27 @@ body{
 nav{
     padding-top: 20px;
 }
-/* a tag(contact link) */
-a{
-    padding-left: 1200px;
-    text-decoration: none;
-    font-weight: bold;
-    color: wheat;
+
+#header{
+    display: flex; 
 }
+/* a tag(contact link) */
+#navigation{
+    padding-left: 1200px;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+#navigation a{
+color: white;
+text-decoration: none;
+}
+
+#navigation a:hover{
+     color: red;
+    }
+
 /* main body style */
 #main-body{
     width: 100%;
