@@ -76,7 +76,7 @@ text-decoration: none;
     border-radius: 30px;
     border: solid 3px white;
     display: block;
-    object-fit: cover;
+    object-fit: fill;
 }
 figure{
     margin: 32px;
