@@ -1,0 +1,110 @@
+/* main page css */
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header */
+#head{
+    width: 100%;
+    height: 70px;
+    background:rgb(25, 45, 95);
+}
+/* navigation bar inside header */
+nav{
+    padding-top: 20px;
+}
+
+#header{
+    display: flex; 
+}
+/* a tag(contact link) */
+#navigation{
+    padding-left: 1200px;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-top: 5px;
+}
+#navigation a{
+color: white;
+text-decoration: none;
+}
+
+#navigation a:hover{
+     color: red;
+}
+
+/*contact page style*/
+#lunar-body{
+    width: 100%;
+    height: 700px;
+    background-image: url("image/lunar.png");
+    background-position:center;
+    background-size:cover;
+}
+/* footer */
+#foot{
+    width: 100%;
+    height: 70px; 
+    background:rgb(255,204, 217);
+}
+
+.lunar{
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+
+.project{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}  
+
+.details{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-division{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+}
+
+.sub-division{
+    width: 545px;
+    height: 300px;
+    margin-left: 175px;
+}
+
+p{
+    font-size: 15px;
+    color: white; 
+    padding-left: 20px;
+}
+
+ul{
+    color: white;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+button:hover{
+    background: rgb(28, 186, 28);
+}
