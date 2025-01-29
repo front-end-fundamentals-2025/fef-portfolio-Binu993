@@ -1,4 +1,3 @@
-
 /* main page css */
 body{
     margin: 0px;
@@ -36,14 +35,13 @@ text-decoration: none;
      color: red;
 }
 
-/* main body style */
-#main-body{
+/*contact page style*/
+#lunar-body{
     width: 100%;
-    height: 600px;
-    background-image: url("image/header.jpg");
-    background-position: center;
-    object-fit:cover;
-    
+    height: 700px;
+    background-image: url("../image/common_background.png");
+    background-position:center;
+    background-size:cover;
 }
 /* footer */
 #foot{
@@ -51,50 +49,62 @@ text-decoration: none;
     height: 70px; 
     background:rgb(255,204, 217);
 }
-/* main body inside section */
-#section{
-    width: 100%;
-    height: 150px;
-}
-/* main body section h1 (welcome style) */
-h1{
+
+.lunar{
     margin: 0px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
-    padding-top: 5px;
     text-align: center;
-      
 }
-/* main body section paragraph1 style */
-.para1{
-    margin: 0px;
-    font-size: 35px;
+
+
+
+.project{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}  
+
+.details{
+    font-size: 30px;
     font-weight: bold;
     color: white;
-    padding-top: 10px;
-    text-align: center;
 }
-/* main body section2 */
-#about-me{
+
+.main-division{
     width: 100%;
-    height: 435px;
+    height: 300px;
+    display: flex;
+    
 }
-/* main body section2 (about me name) */
-.para2{
-    font-size: 40px;
-    font-weight: bold; 
-    padding-top: 20px; 
-    padding-left:40px;
-    color: gold;
+
+.sub-division{
+    width: 545px;
+    height: 300px;
+    margin-left: 175px;
 }
-/* main body section2 (about myself) */
-.para3{
-    color: oldlace;
+
+p{
     font-size: 15px;
-    padding-left:40px;  
+    color: white; 
+    padding-left: 20px;
 }
 
+ul{
+    color: white;
+}
 
+button{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
 
-
+button:hover{
+    background: rgb(28, 186, 28);
+}

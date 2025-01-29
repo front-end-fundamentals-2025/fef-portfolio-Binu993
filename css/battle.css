@@ -39,7 +39,7 @@ text-decoration: none;
 #battle-body{
     width: 100%;
     height: 700px;
-    background-image: url("image/battle.png");
+    background-image: url("../image/common_background.png");
     background-position:center;
     background-size:cover;
 }

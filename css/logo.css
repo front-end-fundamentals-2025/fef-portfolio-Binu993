@@ -36,12 +36,12 @@ text-decoration: none;
 }
 
 /*contact page style*/
-#social-body{
+#frontend-body{
     width: 100%;
     height: 600px;
-    background-image: url("image/social.png");
+    background-image: url("../image/common_background.png");
     background-position: center;
-    background-size:contain; 
+    background-size:cover; 
 }
 /* footer */
 #foot{
@@ -50,7 +50,7 @@ text-decoration: none;
     background:rgb(255,204, 217);
 }
 
-.social{
+.frontend{
     margin: 0px;
     font-size: 60px;
     font-weight: bold;
