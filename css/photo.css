@@ -36,7 +36,7 @@ text-decoration: none;
 }
 
 /*contact page style*/
-#social-body{
+#photo-body{
     width: 100%;
     height: 60rem;
     background-image: url("../image/common_background.png");
@@ -50,7 +50,7 @@ text-decoration: none;
     background:rgb(255,204, 217);
 }
 
-.social{
+.photo{
     margin: 0px;
     font-size: 60px;
     font-weight: bold;
@@ -69,8 +69,7 @@ text-decoration: none;
     grid-template-columns: 1fr 1fr;
     justify-items: center; 
     align-items: center;
-    
-    
+     
 }
 
 .sub-division {
@@ -84,4 +83,108 @@ text-decoration: none;
     width: 100%;
     height: 100%;
     border-radius: 30px;
+}
+
+
+@media screen and (max-width: 1475px) {
+    #navigation{
+        padding-left: 1000px;
+    }
+    .photo{
+        font-size: 55px;
+    }
+  
+}
+
+@media screen and (max-width: 1275px) {
+    #navigation{
+        padding-left: 800px;
+    }
+
+    .division{
+        margin-left: 5rem;
+    }
+
+    .photo{
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1075px) {
+    #navigation{
+        padding-left: 600px;
+    }
+
+    #photo-body{
+        height: 70rem;  
+    }
+
+    .division{
+        height: 55rem; 
+    }
+
+    .photo{
+        font-size: 45px;
+    }
+   
+}
+
+@media screen and (max-width: 875px) {
+    #navigation{
+        padding-left: 400px;
+    }
+
+    #photo-body{
+        height: 80rem;  
+    }
+
+
+    .division{
+        width: 70%;
+        grid-template-columns:  1fr;
+        gap: 100px;
+        background: none;
+        
+    }
+
+    .sub-division{
+        width: 75%;
+        height: 155%;
+        margin-top: 150px;
+        
+    }
+
+    .photo{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 675px) {
+    #navigation{
+        padding-left: 20px;
+    }
+
+    .photo{
+        font-size: 35px;
+    }
+
+    .sub-division{
+        margin-top: 50px;
+        margin-right: 50px;
+        
+    }
+
+    @media screen and (max-width: 400px) {
+
+        .sub-division{
+            margin-right: 50px;
+            
+        }
+        
+    }
+  
+
+
 }

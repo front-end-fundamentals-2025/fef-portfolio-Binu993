@@ -38,7 +38,7 @@ text-decoration: none;
 /*my work page style*/
 #work-body{
     width: 100%;
-    height: 610px;
+    height: 45rem;
     background-image: url("../image/work.jpg");
     background-position: center;
     object-fit:cover;
@@ -101,4 +101,66 @@ figcaption {
 figure:hover figcaption {
     background: rgba(9, 232, 9, 0.8);
     color: black;
+}
+
+
+@media screen and (max-width: 1475px) {
+    #navigation{
+        padding-left: 1000px;
+    }
+ 
+}
+
+@media screen and (max-width: 1275px) {
+    #navigation{
+        padding-left: 800px;
+    }
+    
+    #work-body{
+        height: 55rem;
+    }
+
+    #work-box{
+        height: 805px;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        margin-left: 80px;
+    }
+      
+}
+
+@media screen and (max-width: 1075px) {
+    #navigation{
+        padding-left: 600px;
+    }
+   
+}
+
+@media screen and (max-width: 875px) {
+    #navigation{
+        padding-left: 400px;
+    }
+
+    #work-body{
+        height: 120rem;
+    }
+
+    #work-box{
+        height: 1700px;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        margin-left: 80px;
+        background: rgba(0, 0, 0, 0.95);
+    }
+}
+
+@media screen and (max-width: 675px) {
+    #navigation{
+        padding-left: 20px;
+    }
+
+    #work-box{
+        margin-left: 30px;  
+    }
+  
 }

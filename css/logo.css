@@ -41,7 +41,8 @@ text-decoration: none;
     height: 45rem;
     background-image: url("../image/common_background.png");
     background-position: center;
-    background-size:cover; 
+    background-size:cover;
+    object-fit: cover; 
 }
 /* footer */
 #foot{
@@ -68,24 +69,26 @@ text-decoration: none;
 }
 
 .sub-division{
-    width: 35%;
-    height: 25rem;
-    
+    width: 45%;
+    height: 25rem;   
 }
 
 .logo-image{
     width: 100%;
     border-radius: 20px;
+    border: solid rgb(237, 9, 9) 7px;
 }
 
 h2{
     color: white;
     font-size: 30px; 
+    background: rgb(224, 4, 161);
 }
 
 h3{
     color: white; 
     font-size: 20px; 
+    background: rgb(224, 4, 161);
 }
 
 p{
@@ -93,4 +96,97 @@ p{
     font-size: 15px;
 }
 
+
+@media screen and (max-width: 1475px) {
+    #navigation{
+        padding-left: 1000px;
+    }
+
+  
+}
+
+@media screen and (max-width: 1275px) {
+    #navigation{
+        padding-left: 800px;
+    }
+
+    .logo{
+
+        font-size: 50px;  
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 1075px) {
+    #navigation{
+        padding-left: 600px;
+    }
+
+    .division{
+        margin-left: 6rem;
+    }
+
+    .sub-division{
+        width: 45%;
+    }
+
+    h2{
+        color: white;
+        font-size: 20px; 
+    }
+
+    h3{
+        color: white; 
+        font-size: 15px; 
+    }
+
+
+   
+}
+
+@media screen and (max-width: 875px) {
+    #navigation{
+        padding-left: 400px;
+    }
+
+    #logo-body{
+
+        height: 60rem;
+
+    }
+    
+    .division{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5rem;
+    }
+
+    .sub-division {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    #navigation{
+        padding-left: 20px;
+    }
+
+    .division{
+        
+        margin-left: 4rem;
+    }
+
+    .sub-division {
+        width: 80%;
+    }
+
+    .logo{
+
+        font-size: 40px;  
+    }
+  
+}
 

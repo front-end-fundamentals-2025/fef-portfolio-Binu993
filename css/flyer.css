@@ -72,6 +72,7 @@ text-decoration: none;
     width: 35%;
     height: 35rem;
     
+    
 }
 
 .logo-image{
@@ -84,9 +85,86 @@ text-decoration: none;
 h2{
     color: white;
     font-size: 30px; 
+    background: rgb(224, 4, 161);
 }
 
 p{
     color: white;
     font-size: 15px;
+}
+
+
+@media screen and (max-width: 1475px) {
+    #navigation{
+        padding-left: 1000px;
+    }
+ 
+}
+
+@media screen and (max-width: 1275px) {
+    #navigation{
+        padding-left: 800px;
+    }
+   
+}
+
+@media screen and (max-width: 1075px) {
+    #navigation{
+        padding-left: 600px;
+    }
+
+    .flyer{
+        font-size: 50px;
+    }
+   
+}
+
+@media screen and (max-width: 875px) {
+    #navigation{
+        padding-left: 400px;
+    }
+
+    #flyer-body{
+        height: 55rem;
+    }
+
+    .division{
+        margin-left: 5rem;
+         margin-top: 1.5rem;
+    }
+    .sub-division{
+        width: 40%; 
+    }
+
+    .flyer{
+        font-size: 40px;
+    }
+
+    h2{
+        color: white;
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 675px) {
+    #navigation{
+        padding-left: 20px;
+    }
+
+    .division{
+       flex-direction: column;
+       align-items: center;
+       margin-left: 2.5rem;
+       
+    }
+    #flyer-body{
+        height: 82rem;
+    }
+
+    .sub-division{
+        width: 70%; 
+        padding-top: 40px;
+    }
+
+  
 }
