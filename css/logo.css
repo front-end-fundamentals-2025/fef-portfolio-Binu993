@@ -57,6 +57,7 @@ text-decoration: none;
     font-weight: bold;
     color: white;
     text-align: center;
+    background: rgb(232, 8, 109);
 }
 
 .division{
@@ -64,13 +65,13 @@ text-decoration: none;
     margin-left: 9rem;
     margin-top: 3rem;
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
 
 .sub-division{
     width: 45%;
-    height: 25rem;   
+    height: 25rem; 
+ 
 }
 
 .logo-image{
@@ -114,9 +115,6 @@ p{
 
         font-size: 50px;  
     }
-
-
-
     
 }
 
@@ -188,5 +186,26 @@ p{
         font-size: 40px;  
     }
   
+}
+
+@media screen and (max-width: 400px) {
+
+    .division{
+        
+        margin-left: 2rem;
+    }
+
+    .sub-division {
+        width: 100%;
+        height: 350px;
+    }
+
+    .logo{
+
+        font-size: 30px;  
+    }
+    
+    
+       
 }
 

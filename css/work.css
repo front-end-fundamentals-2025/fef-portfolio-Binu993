@@ -53,10 +53,13 @@ text-decoration: none;
 /*my work page (my-work)*/
 .my-work{
     margin: 0px;
-    font-size: 40px;
+    padding-top: 5px;
+    font-size: 60px;
     font-weight: bold;
     color: white;
     text-align: center;
+    background: rgb(232, 8, 109);
+    
 }
 
 #work-box{
@@ -64,7 +67,7 @@ text-decoration: none;
     height: 540px;
     background: rgba(0,0,0,0.85);
     margin-left: 110px;
-    margin-top: 5px;
+    margin-top: 30px;
     border-radius: 30px;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
@@ -108,12 +111,20 @@ figure:hover figcaption {
     #navigation{
         padding-left: 1000px;
     }
+
+    .my-work{
+        font-size: 55px;
+    }
  
 }
 
 @media screen and (max-width: 1275px) {
     #navigation{
         padding-left: 800px;
+    }
+
+    .my-work{
+        font-size: 50px;
     }
     
     #work-body{
@@ -133,12 +144,20 @@ figure:hover figcaption {
     #navigation{
         padding-left: 600px;
     }
+
+    .my-work{
+        font-size: 45px;
+    }
    
 }
 
 @media screen and (max-width: 875px) {
     #navigation{
         padding-left: 400px;
+    }
+
+    .my-work{
+        font-size: 45px;
     }
 
     #work-body{
@@ -157,6 +176,10 @@ figure:hover figcaption {
 @media screen and (max-width: 675px) {
     #navigation{
         padding-left: 20px;
+    }
+
+    .my-work{
+        font-size: 35px;
     }
 
     #work-box{

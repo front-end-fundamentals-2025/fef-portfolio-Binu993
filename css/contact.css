@@ -41,7 +41,7 @@ text-decoration: none;
     height: 600px;
     background-image: url("../image/contact.jpg");
     background-position: center;
-    object-fit:cover;
+    object-fit:fill;
     background-size: cover; 
 }
 /* footer */
@@ -58,6 +58,7 @@ text-decoration: none;
     color: white;
     padding-top: 50px;
     padding-left: 870px;
+    
 }
 /*contact form rectangle box*/
 #section-form {
@@ -168,6 +169,21 @@ text-decoration: none;
         margin-left: 70px;
         background: rgb(12, 80, 164);
 
+    }
+
+    @media screen and (max-width: 400px) {
+
+        .contact{
+            padding-left: 70px; 
+            
+        }
+    
+        #section-form{
+            margin-left: 20px;
+            
+    
+        }
+           
     }
   
 }
