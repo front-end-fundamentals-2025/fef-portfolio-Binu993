@@ -42,6 +42,7 @@ text-decoration: none;
     background-image: url("../image/common_background.png");
     background-position: center;
     background-size:cover; 
+    object-fit: cover;
 }
 /* footer */
 #foot{
