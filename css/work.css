@@ -71,6 +71,11 @@ text-decoration: none;
     border-radius: 30px;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
+    animation-name: change;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
 }
 
 .work-image{
@@ -186,4 +191,19 @@ figure:hover figcaption {
         margin-left: 30px;  
     }
   
+}
+
+/*animation*/
+
+@keyframes change {
+    0% {
+        background-color: rgb(98, 5, 5);
+
+    }
+    50% {
+        background-color: rgb(9, 2, 84);
+    }
+    100% {
+        background-color: rgb(2, 79, 79);
+    }
 }
