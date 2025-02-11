@@ -14,7 +14,7 @@ homeButton.addEventListener("mouseout",function(){
 });
 
 workButton.addEventListener("mouseover", function(){
-    headElement.style.backgroundColor = "#330000";
+    headElement.style.backgroundColor = "#064957";
 });
 
 workButton.addEventListener("mouseout",function(){
@@ -30,11 +30,13 @@ aboutButton.addEventListener("mouseout",function(){
 });
 
 contactButton.addEventListener("mouseover", function(){
-    headElement.style.backgroundColor = "#003333";
+    headElement.style.backgroundColor = "#2F0554";
 });
 
 contactButton.addEventListener("mouseout",function(){
     headElement.style.backgroundColor = "#192D5F";
 });
+
+
 
 

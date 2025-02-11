@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binu Sebastian</title>
     <link href="css/contact.css" type="text/css" rel="stylesheet">
+    <script src="js/contact.js" defer></script>
 </head>
 <body>
   <header id="head">
@@ -28,7 +29,12 @@
   </header>  
   <main id="contact-body">
 
+    <div id="information">
+      <h1 id="display"></h1>
+    </div>
+
     <section id="section">
+    
     <h1 class="contact">Contact Me</h1>
     </section>
 
@@ -36,22 +42,23 @@
     <form id="contact-form">
         <label>Full Name</label>
         <br>
-        <input class="box-size" type="text">
+        <input id="name" class="box-size" type="text">
         <br>
         <label>Email</label>
         <br>
-        <input class="box-size" type="email">
+        <input id="mail" class="box-size" type="email">
         <br>
         <label>Phone</label>
         <br>
-        <input class="box-size" type="tel">
+        <input id="phone" class="box-size" type="tel">
         <br>
         <label>Message</label>
         <br>
-        <input class="message-box" type="text">
+        <input id="message" class="message-box" type="text">
         <br>
-        <button class="contact-button">Submit</button>
-    </form>
+        
+      </form>
+      <button id="submit" class="contact-button">Submit</button>
     </section>
     
 
