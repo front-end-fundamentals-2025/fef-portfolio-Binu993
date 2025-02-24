@@ -19,7 +19,7 @@ submitElement.addEventListener("click", function(event) {
         informationElement.style.backgroundColor = "#009900";
     }
           
-    if (text === ""){
+    else if (text === ""){
         displayElement.innerHTML = "Please enter your full name!";
         informationElement.style.backgroundColor = "#CC0000"; 
     }
